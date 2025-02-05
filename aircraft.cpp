@@ -7,6 +7,7 @@ string classifyAircraft(double wingspan) {
 
 int main() {
     double wingspan;
+    cout<<"hello";
     cout << "Enter wingspan (m): ";
     cin >> wingspan;
     cout << "Aircraft Type: " << classifyAircraft(wingspan) << endl;
